@@ -1,6 +1,6 @@
 package com.fda.graph
 
-class Graph() {
+class Graph {
 
   private var matrix: Array[Array[Int]] = _;
   private var size: Int = 0;

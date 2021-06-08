@@ -1,7 +1,7 @@
 package com.fda.file
 
 import Control._
-import scala.util.{Try, Success, Failure}
+import scala.util.Try
 
 object File {
   def tryReadFile(path: String): Try[List[String]] = {
